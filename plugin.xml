@@ -10,7 +10,7 @@
       <!-- @generated wpcmMetamodel -->
       <package
             uri="http://nemo.inf.ufes.br/wpcmMetamodel"
-            class="br.ufes.inf.nemo.wpcmMetamodel.WpcmMetamodelPackage"
+            class="br.ufes.inf.nemo.wpcmMetamodel.wpcmPackage"
             genModel="model/wpcmMetamodel.genmodel"/>
    </extension>
 

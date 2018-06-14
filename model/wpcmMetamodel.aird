@@ -94,10 +94,6 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_EhszEW_gEeivlKDGN_X1Gg" fontName="Noto Sans" fontHeight="8" bold="true"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_EhszEm_gEeivlKDGN_X1Gg"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_EhszE2_gEeivlKDGN_X1Gg" type="3010" element="_EhKnkW_gEeivlKDGN_X1Gg">
-              <styles xmi:type="notation:FontStyle" xmi:id="_EhszFG_gEeivlKDGN_X1Gg" fontName="Noto Sans" fontHeight="8" bold="true"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_EhszFW_gEeivlKDGN_X1Gg"/>
-            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_EhibCW_gEeivlKDGN_X1Gg"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_EhibCm_gEeivlKDGN_X1Gg"/>
           </children>
@@ -494,14 +490,6 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_EhKnkW_gEeivlKDGN_X1Gg" name="public : EBoolean = true" tooltipText="">
-        <target xmi:type="ecore:EAttribute" href="wpcmMetamodel.ecore#//Content/public"/>
-        <semanticElements xmi:type="ecore:EAttribute" href="wpcmMetamodel.ecore#//Content/public"/>
-        <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_EhLOoG_gEeivlKDGN_X1Gg" labelAlignment="LEFT" description="_EhILUG_gEeivlKDGN_X1Gg">
-          <labelFormat>bold</labelFormat>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
-      </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_Eg46wG_gEeivlKDGN_X1Gg" name="PostType" tooltipText="" outgoingEdges="_EhR8UG_gEeivlKDGN_X1Gg _EhSjY2_gEeivlKDGN_X1Gg _EhZ4IG_gEeivlKDGN_X1Gg" incomingEdges="_EhQuMG_gEeivlKDGN_X1Gg _EhVmsG_gEeivlKDGN_X1Gg" width="12" height="10">
       <target xmi:type="ecore:EClass" href="wpcmMetamodel.ecore#//PostType"/>
@@ -513,9 +501,9 @@
         <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
-      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_EhLOoW_gEeivlKDGN_X1Gg" name="hasArchivePage : EBoolean = true" tooltipText="">
-        <target xmi:type="ecore:EAttribute" href="wpcmMetamodel.ecore#//PostType/hasArchivePage"/>
-        <semanticElements xmi:type="ecore:EAttribute" href="wpcmMetamodel.ecore#//PostType/hasArchivePage"/>
+      <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_EhLOoW_gEeivlKDGN_X1Gg" name="internal : EBoolean = false" tooltipText="">
+        <target xmi:type="ecore:EAttribute" href="wpcmMetamodel.ecore#//PostType/internal"/>
+        <semanticElements xmi:type="ecore:EAttribute" href="wpcmMetamodel.ecore#//PostType/internal"/>
         <ownedStyle xmi:type="diagram:BundledImage" xmi:id="_EhL1sG_gEeivlKDGN_X1Gg" labelAlignment="LEFT" description="_EhILUG_gEeivlKDGN_X1Gg">
           <labelFormat>bold</labelFormat>
         </ownedStyle>
@@ -640,6 +628,7 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_EhRVQ2_gEeivlKDGN_X1Gg" description="_EhRVQG_gEeivlKDGN_X1Gg" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_EhRVRG_gEeivlKDGN_X1Gg" showIcon="false">
           <customFeatures>labelSize</customFeatures>
+          <labelFormat>bold</labelFormat>
         </centerLabelStyle>
         <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_EhRVRW_gEeivlKDGN_X1Gg" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
@@ -692,6 +681,7 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_EhYC8W_gEeivlKDGN_X1Gg" description="_EhXb4G_gEeivlKDGN_X1Gg" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_EhYC8m_gEeivlKDGN_X1Gg" showIcon="false">
           <customFeatures>labelSize</customFeatures>
+          <labelFormat>bold</labelFormat>
         </centerLabelStyle>
         <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_EhYC82_gEeivlKDGN_X1Gg" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
@@ -705,6 +695,7 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_EhYqAW_gEeivlKDGN_X1Gg" description="_EhRVQG_gEeivlKDGN_X1Gg" sourceArrow="FillDiamond" routingStyle="manhattan" strokeColor="0,0,0">
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_EhYqAm_gEeivlKDGN_X1Gg" showIcon="false">
           <customFeatures>labelSize</customFeatures>
+          <labelFormat>bold</labelFormat>
         </centerLabelStyle>
         <endLabelStyle xmi:type="diagram:EndLabelStyle" xmi:id="_EhYqA2_gEeivlKDGN_X1Gg" showIcon="false" labelColor="39,76,114">
           <customFeatures>labelSize</customFeatures>
